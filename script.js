@@ -1,8 +1,12 @@
+"use strict";
+
 // 1. Print all even numbers from 0 – 10
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
-for (let i = 0; i < numbers.length; i++) {
+debugger;
+const length = numbers.length; // length = showing errors in text editor.
+for (let i = 0; i < length; i++) {
+    // i = showing errors in text editor
     if (i % 2 == 0) {
         console.log(i);
     }
@@ -22,3 +26,13 @@ const players = ["sakib", "tamim", "rubel", "dhoni"];
 players.reverse();
 
 console.log(players);
+
+// 10. Return the number of vowels in a string
+
+const vowels = ["a", "e", "i", "o", "u"];
+debugger;
+const length = vowels.length; // length = showing errors in text editor.
+for (i = 0; i < length; i++) {
+    // i = showing errors in text editor
+    console.log(i);
+}
