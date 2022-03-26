@@ -36,3 +36,13 @@ for (i = 0; i < length; i++) {
     // i = showing errors in text editor
     console.log(i);
 }
+
+// let table = 12;
+// let length = 10;
+// let i = 1;
+
+// document.write("Multiplication table: " + table);
+// for (i = 1; i <= length; i++)
+//     document.write("<br>" + i + " * " + table + " = " + i * table);
+
+// console.log(write);
