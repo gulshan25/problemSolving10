@@ -36,3 +36,15 @@ for (i = 0; i < length; i++) {
     // i = showing errors in text editor
     console.log(i);
 }
+
+// 7. Create a function that filters out negative numbers
+
+const numbers = [10, 5, 15, 35, 55, 65]; // numbers = showing errors in text editor.
+
+function myFunction(value, index, array) {
+    return value > 10;
+}
+
+const newNumbers = numbers.filter(myFunction);
+
+console.log(newNumbers);

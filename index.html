@@ -10,7 +10,9 @@
 
 <body>
     <!-- 2. Print a table containing multiplication tables -->
-    <h1></h1>
+
+    <h1>Multiplication table 12</h1>
+    <p></p>
     <script>
         let table = 12;
         let length = 10;
@@ -18,6 +20,22 @@
 
         for (i = 0; i <= length; i++)
             document.write("<br>" + i + " * " + table + " = " + i * table);
+    </script>
+
+    <!-- 3. Create a length converter function -->
+
+    <h2>Length Converter</h2>
+    <p>
+        <label for="">kilometer</label>
+        <input id="km" type="number" placeholder="kilometer" oninput="convert(this.value)" onchange="convert(this.value)" />
+    </p>
+    <p>Miles: <span id="m" class="miles"></span></p>
+
+    <script>
+        function convert(length) {
+            document.querySelector(".miles").innerHTML = length * 1000;
+            document.getElementById("m").style.fontSize = "20px";
+        }
     </script>
 </body>
 
