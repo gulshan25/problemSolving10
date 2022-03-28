@@ -48,3 +48,8 @@ function myFunction(value, index, array) {
 const newNumbers = numbers.filter(myFunction);
 
 console.log(newNumbers);
+
+// 9. Return a Boolean if a number is divisible by 10
+
+let x = 10 / "Hello";
+Boolean(x);
