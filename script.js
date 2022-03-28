@@ -21,7 +21,7 @@ console.log(result);
 
 // 5. Create a function that reverses an array
 
-const players = ["sakib", "tamim", "rubel", "dhoni"];
+const players = ["sakib", "tamim", "rubel", "dhoni", "meshi"];
 
 players.reverse();
 
@@ -31,21 +31,21 @@ console.log(players);
 
 const vowels = ["a", "e", "i", "o", "u"];
 debugger;
-const length = vowels.length; // length = showing errors in text editor.
-for (i = 0; i < length; i++) {
+// const length = vowels.length; // length = showing errors in text editor.
+for (x = 0; x < vowels.length; x++) {
     // i = showing errors in text editor
-    console.log(i);
+    console.log(x);
 }
 
 // 7. Create a function that filters out negative numbers
 
-const numbers = [10, 5, 15, 35, 55, 65]; // numbers = showing errors in text editor.
+const number = [10, 5, 15, 35, 55, 65]; // numbers = showing errors in text editor.
 
 function myFunction(value, index, array) {
     return value > 10;
 }
 
-const newNumbers = numbers.filter(myFunction);
+const newNumbers = number.filter(myFunction);
 
 console.log(newNumbers);
 
@@ -53,3 +53,21 @@ console.log(newNumbers);
 
 let x = 10 / "Hello";
 Boolean(x);
+
+// 4. Calculate the sum of numbers within an array
+
+let sumNumbers = [-10, 5, -20, 15, -30, 35, 55, 65]; // numbers = showing errors in text editor.
+
+function sorts(a, b) {
+    return a - b;
+}
+
+console.log(sumNumbers.sort(sorts));
+
+// 6. Sort an array from lowest to highest
+
+const sortNumbers = [60, 70, 30, 40, 50, 80, 90, 100];
+
+sortNumbers.sort();
+
+console.log(sortNumbers);
